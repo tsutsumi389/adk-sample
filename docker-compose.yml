@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  uv-app:
+    build: .
+    container_name: app
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    # command: python app.py
+    command: adk web

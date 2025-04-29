@@ -1,0 +1,14 @@
+# Python specific
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Docker specific
+docker-compose.override.yml
+*.log
+
+# Others
+*.swp
+.DS_Store
