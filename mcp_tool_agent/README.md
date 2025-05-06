@@ -1,0 +1,1 @@
+Docker DescktopでDocker MCP Toolkit拡張機能をインストールしplaywrightをONにする

@@ -6,6 +6,7 @@ services:
     container_name: app
     volumes:
       - .:/app
+      - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "8000:8000"
     # command: python app.py
